@@ -1,0 +1,81 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('images/nathan-anderson-OzhDGgszWpk-unsplash.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+.main-wrapper, .call {
+    margin-left: 50vw;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+.main-wrapper {
+    font-family: Verdana, Geneva, sans-serif;
+    color: white;
+}
+
+a {
+    font-family: Verdana, Geneva, sans-serif;
+    color: white;
+    border: 2px solid white;
+    margin-top: 1vh;
+}
+
+a:hover {
+    border: 2px solid crimson;
+    transition: 500ms ease-in-out;
+}
+
+.border{
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.title {
+    font-size: 4vw;
+}
+
+.desc-txt {
+    font-size: 2.5vw;
+    
+}
+
+.action-btn {
+    font-size: 1.5vw;
+    border-radius: 15px;
+    padding: 5% 25%;
+    
+}
+
+.action-btn:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    .main-wrapper {
+        margin-left: 0vw;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -50vw;
+    }
+}
